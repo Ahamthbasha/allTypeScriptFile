@@ -828,7 +828,6 @@
 //   console.log(movieDetails("Rajinikanth")); // Output: Hero of the movie is Rajinikanth
 //   console.log(movieDetails.movieName); // Output: Baasha
 //   movieDetails.budget(); // Output: It is a secret!
-  
 
 //basic class
 // class school{
