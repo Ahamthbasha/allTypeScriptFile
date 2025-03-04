@@ -375,6 +375,7 @@
 
 //const enums
 
+
 // const enum colors{
 //     red="red",
 //     green="green"
@@ -430,7 +431,7 @@
 
 //tuple with named elements
 
-// type emp=[id:number,name:string,active:boolean]//her we use option but we cannot use readOnly here with specific key & value
+// type emp=[id:number,name:string,active:boolean]//here we use option but we cannot use readOnly here with specific key & value
 
 // let employee:emp=[101,"basha",true]
 
@@ -1245,4 +1246,3 @@
 //     return this.replace(/\b\w/g,(char)=>char.toUpperCase())
 // }
 // console.log("hello world".toTitleCase());
-
