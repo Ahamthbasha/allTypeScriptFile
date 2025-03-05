@@ -157,9 +157,9 @@
 
 // type await=Awaited<ReturnType <typeof fetchUser>>
 
-let n=((x:number):void=>{
-    console.log(x)
-})
+// let n=((x:number):void=>{
+//     console.log(x)
+// })
 
 // function processInput(callback:(input:string)=>void){
 //     let greeet="hello"
@@ -307,21 +307,21 @@ let n=((x:number):void=>{
 
 //no,string
 
-let studentName:string|number;
+// let studentName:string|number;
 
-let array:string[]=["apple","banana"]
+// let array:string[]=["apple","banana"]
 
-let arr2:string[]=array.map((n):string=>{
-    return n
-}) 
+// let arr2:string[]=array.map((n):string=>{
+//     return n
+// }) 
 
-console.log(arr2)
+// console.log(arr2)
 
-//take two no and return sum
+// //take two no and return sum
 
-function sum(a:number,b:number):number{
-    return a+b
-}
+// function sum(a:number,b:number):number{
+//     return a+b
+// }
 
 //
 
@@ -355,3 +355,9 @@ function sum(a:number,b:number):number{
 
 
 
+// interface User{
+//     id:number,
+//     name:string,
+//     email:string,
+//     isActive:boolean
+// }

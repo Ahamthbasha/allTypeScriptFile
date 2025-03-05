@@ -115,9 +115,9 @@
 //     return {id:1,name:"basha"}
 // }
 // type await=Awaited<ReturnType <typeof fetchUser>>
-let n = ((x) => {
-    console.log(x);
-});
+// let n=((x:number):void=>{
+//     console.log(x)
+// })
 // function processInput(callback:(input:string)=>void){
 //     let greeet="hello"
 //     callback(greeet)
@@ -222,16 +222,16 @@ let n = ((x) => {
 // type store=Record<keys,boolean>
 // type lit=boolean|string|null|undefined|jsonValue[]|{[key:string]:jsonValue}
 //no,string
-let studentName;
-let array = ["apple", "banana"];
-let arr2 = array.map((n) => {
-    return n;
-});
-console.log(arr2);
-//take two no and return sum
-function sum(a, b) {
-    return a + b;
-}
+// let studentName:string|number;
+// let array:string[]=["apple","banana"]
+// let arr2:string[]=array.map((n):string=>{
+//     return n
+// }) 
+// console.log(arr2)
+// //take two no and return sum
+// function sum(a:number,b:number):number{
+//     return a+b
+// }
 //
 // {
 //     "_id": "67c6a6ae2bece572a39f5235",
@@ -243,8 +243,24 @@ function sum(a, b) {
 //     "createdAt": "2025-03-04T07:07:26.141Z",
 //     "updatedAt": "2025-03-04T07:07:49.161Z",
 //     "__v": 0,
-address: {
-    pincode: 606901,
-        houseNo;
-    3 / 566;
-}
+// address:{
+//     pincode:606901,
+//     houseNo:3/566
+// }
+//
+// }
+// interface resoponseLast{
+//     _id:string,
+//     email:string,
+//     address:addAddress
+// }
+// interface addAddress{
+//     pincode:number,
+//     doorNo:number
+// }
+// interface User{
+//     id:number,
+//     name:string,
+//     email:string,
+//     isActive:boolean
+// }
