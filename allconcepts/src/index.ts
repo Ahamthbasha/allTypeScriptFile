@@ -552,7 +552,7 @@
 //union types
 
 // type stringOrNumber=string|number
-// let a :stringOrNumber="ancd"
+// let a :stringOrNumber="abcd"
 
 // function printId(id:string|number):void{
 //     console.log(printId)
@@ -771,11 +771,11 @@
 //     name:string
 // }
 
-// type user={name:string}
-
 // interface manager extends emp{
 //     managerName:string
 // }
+
+// type user={name:string}
 
 // type admin=emp & user
 

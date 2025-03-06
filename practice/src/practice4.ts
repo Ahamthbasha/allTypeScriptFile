@@ -158,11 +158,11 @@
 
 // console.log(companyAddress)
 
-type Book={
-    title:string,
-    author:string,
-    price:number
-}
+// type Book={
+//     title:string,
+//     author:string,
+//     price:number
+// }
 
 // function totalPrice(book:Book[]):number{
 //     let sum=0

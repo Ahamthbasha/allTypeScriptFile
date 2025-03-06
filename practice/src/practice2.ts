@@ -180,7 +180,6 @@ let userName:string="abcd"
 //         return input*input
 //     }
 // }
-// const op=new mathUtils()
 // console.log(mathUtils.square(5))
 
 // class singleton{
@@ -493,7 +492,7 @@ let userName:string="abcd"
 // }
 // type userData=Awaited<ReturnType<typeof fetchUser>>
 
-type jsonValue=string|null|undefined|boolean|{[key:string]:jsonValue}|jsonValue[]
+// type jsonValue=string|null|undefined|boolean|{[key:string]:jsonValue}|jsonValue[]
 
 // export function add (a:number,b:number){
 //     return a+b

@@ -141,14 +141,6 @@
 
 // console.log(checkPalindrome("abcd"))
 
-// function tDArraySum(input1:number[][],input2:number[][]):number[][]{
-//     for(let i=0;i<input1.length;i++){
-//         for(let j=0;j<input1[i].length;j++){
-            
-//         }
-//     }
-// }
-
 // function twoDSum(arr1:number[][],arr2:number[][]):number[][]{
 // let sum=[]
 
@@ -275,3 +267,7 @@
 // }
 
 // console.log(mul([1,2,3,4,5]))
+
+// type Isstring<t>=t extends string?true:false;
+
+// type stringCheck=Isstring<number>

@@ -112,7 +112,7 @@
 //     absPres:true
 // }
 
-// let arr:(string|boolean|number)[]=["abcd",true,1]
+// let arr:(string|boolean|number)[]=["abcd",true,1,"basha"]
 
 
 // let studentDetails:[rollNo:number,name:string,absPres:boolean]=[101,"ahamathbasha",true]

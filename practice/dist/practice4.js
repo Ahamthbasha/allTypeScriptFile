@@ -5,6 +5,133 @@
 //     email:string,
 //     isActive:boolean
 // }
+// let obj1:sUser={
+//     id:123,
+//     name:"ahamathbasha",
+//     email:"ahamath@gmail.com",
+//     isActive:true
+// }
+// interface Address{
+//     street:string,
+//     city:string,
+//     zipCode:number
+// }
+// interface UserProfile{
+//     username:string,
+//     email:string,
+//     address:Address
+// }
+// let basha:UserProfile={
+//     username:"basha",
+//     email:"basha@gmail.com",
+//     address:{
+//         street:"nadu street",
+//         city:"msk",
+//         zipCode:123
+//     }
+// }
+// console.log(basha)
+// interface Product{
+//     id:number,
+//     name:string,
+//     price:number
+// }
+// function getTotalPrice(product:Product[]):number{
+//     let sum=0
+//     for(let i=0;i<product.length;i++){
+//         sum+=product[i].price
+//     }
+//     return sum
+// }
+// let product:Product[]=[
+//     { id: 1, name: "soap", price: 10 },
+//     { id: 2, name: "shampoo", price: 50 },
+//     { id: 3, name: "toothpaste", price: 30 },
+//     { id: 4, name: "lotion", price: 100 },
+//     { id: 5, name: "conditioner", price: 60 }
+// ]
+// console.log(getTotalPrice(product))
+// interface Person{
+//     firstName:string,
+//     lastName:string,
+//     fullName():string
+// }
+// let p:Person={
+//     firstName:"ahamathbasha",
+//     lastName:"F",
+//     fullName(){
+//         return `${this.firstName} ${this.lastName}`
+//     }
+// }
+// console.log(p)
+// console.log(p.fullName())
+// interface Shcool{
+//     name:string,
+//     students:students[],
+//     teachers:teachers[]
+// }
+// interface students{
+//     id:number,
+//     name:string
+// }
+// interface teachers{
+//     id:number,
+//     name:string,
+//     subject:string
+// }
+// interface ApiResponse<t>{
+//     status:string,
+//     data:t,
+//     message:string
+// }
+// let userResponse:ApiResponse<students[]>={
+//     status:"success",
+//     data:[{id:1,name:"basha"}],
+//     message:"goodmorning"
+// }
+// interface Dictionary{
+//     [key:string]:unknown
+// }
+// let words:Dictionary={
+//     "abcd":"letter",
+//     "no":123,
+//     "school":"many"
+// }
+// console.log(words.no)
+// type Car={
+//     brand:string,
+//     model:string,
+//     year:number
+// }
+// let abcd:Car={
+//     brand:"Mahindra",
+//     model:"mahindra uv",
+//     year:2000
+// }
+// console.log(abcd)
+// type Company={
+//     name:string,
+//     address:address
+// }
+// type address={
+//     street:string,
+//     city:string,
+//     zipCode:number
+// }
+// const companyAddress:Company={
+//     name:"latex",
+//     address:{
+//         street:"nadu street",
+//         city:"chennai",
+//         zipCode:123
+//     }
+// }
+// console.log(companyAddress)
+// type Book={
+//     title:string,
+//     author:string,
+//     price:number
+// }
 // function totalPrice(book:Book[]):number{
 //     let sum=0
 //     for(let i=0;i<book.length;i++){

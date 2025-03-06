@@ -2,6 +2,302 @@
 // let visible:boolean=true
 // let n:number=2
 // let userName:string="ahamathbasha"
+// function nothing():void{
+//     console.log("hello")
+// }
+// let not=():void=>{
+//     console.log("hello")
+// }
+// not()
+// function add(callback:(input:number)=>void){
+//     let no=5
+//     callback(no)
+// }
+// add((no)=>{
+//     console.log(no+no)
+// })
+// let result:void=null
+// let result2:void=undefined;
+// let absentValue:null=null
+// let unknown:undefined=undefined
+// let user:{id:number,name:string}={
+//     id:101,
+//     name:"ahamathbasha"
+// }
+// type a={
+//     readonly id:number,
+//     name?:string
+// }
+// let user2:a={id:102,name:"ahamathbasha"}
+// type dictionary={
+//     [key:string]:string
+// }
+// let color:dictionary={
+//     red:"abcdef",
+//     black:"ghijkl"
+// }
+// type b=a & {address:string}
+// let c:b={
+//     id:103,
+//     address:"raghunathan street"
+// }
+// interface emp{
+//     name:string,
+//     rollNo:number,
+//     movieName:string
+// }
+// let a:emp={
+//     name:"basha",
+//     rollNo:101,
+//     movieName:"dragon"
+// }
+// console.log(a.name)
+// interface movie{
+//     movieName:string,
+// }
+// interface producer extends movie{
+//     producerName:string
+// }
+// let movieDetails:producer={movieName:"dragon",producerName:"ags"}
+// console.log(movieDetails.movieName)
+// interface dictionary{
+//     [key:string]:string
+// }
+// let proname:dictionary={
+//     product:"panner",
+//     productOwner:"king"
+// }
+// interface mathOperation{
+//     (a:number,b:number):number
+// }
+// let x:mathOperation=(x,y)=>{
+//     return x+y
+// }
+// console.log(x(10,5))
+// interface Animal{
+//     name:string
+//     makeSound():void
+// }
+// class dog implements Animal{
+//     name:string
+//     constructor(name:string) {
+//         this.name=name
+//     }
+//     makeSound(){
+//         console.log("bow bow")
+//     }
+// }
+// let d=new dog("puppy")
+// d.makeSound()
+//access modifiers
+// class employee{
+//     public name:string
+//     private id:number
+//     protected salary:number
+//     constructor(name:string,id:number,salary:number){
+//         this.name=name
+//         this.id=id
+//         this.salary=salary
+//     }
+// }
+// class department extends employee{
+//     getSalary():number{
+//         return this.salary
+//     }
+// }
+// let manufacturer=new department("basha",12,15000)
+// console.log(manufacturer.name)
+// // console.log(manufacturer.id)
+// // console.log(manufacturer.salary)
+// console.log(manufacturer.getSalary())
+// class bank{
+//     private salary:number=0
+//     get showSalary():number{
+//         return this.salary
+//     }
+//     set deposit(amount:number){
+//         if(amount > 0){
+//             this.salary+=amount
+//         }
+//         else{
+//             console.log("no only allowed and string value is not allowed")
+//         }
+//     }
+// }
+// let bank1=new bank()
+// console.log(bank1.showSalary)
+// bank1.deposit=1000
+// abstract class shape{
+//     abstract getArea():number
+//     printArea():void{
+//         console.log(`${this.getArea()}`)
+//     }
+// }
+// class circle extends shape{
+//     radius:number
+//     constructor(radius:number){
+//         super()
+//         this.radius=radius
+//     }
+//     getArea(){
+//         return this.radius * 2
+//     }
+// }
+// let myCircle = new circle(5);
+//  myCircle.printArea();
+// class mathUtils{
+//     static two:number=2
+//     static getNoTwo(input:number):number{
+//         return this.two * input
+//     }
+// }
+// console.log(mathUtils.two)
+// console.log(mathUtils.getNoTwo(10))
+// class singleton{
+//     private static instance:singleton
+//     private constructor(){
+//     }
+//     static getInstance():singleton{
+//         if(!this.instance){
+//             this.instance=new singleton()
+//         }
+//         return this.instance
+//     }
+// }
+// let obj1=singleton.getInstance()
+// let obj2=singleton.getInstance()
+// console.log(obj1==obj2)
+// enum direction{
+//     one,
+//     two,
+//     three,four
+// }
+// console.log(direction.two)
+// enum stringType{
+//     success="success",
+//     failure="failure"
+// }
+// console.log(stringType.success)
+// enum hetro{
+//     no,
+//     one,
+//     success="success"
+// }
+// console.log(hetro.one)
+// enum Role{
+//     user,
+//     admin
+// }
+// function getPermission(role:Role):void{
+//     switch(role){
+//         case Role.user:
+//             console.log("full access to user")
+//             break
+//         default:
+//             console.log("full access to admin")
+//     }
+// }
+// getPermission(Role.user)
+// const enum colors{
+//     red="red"
+// }
+// console.log(colors.red)
+// enum expr{
+//     a=10,
+//     b=a*10,
+//     c=b+1
+// }
+// console.log(expr.c)
+// let no:number[]=[1,2,3]
+// let userName:string[]=["abcd","efgh"]
+// let no1:Array<number>=[4,5,6,7]
+// let userName2:Array<string>=["nm","jk"]
+// let studentName:[number,string, number?,...string[]]=[101,"abcd",1000,"abcd","abcd","abcd"]
+// console.log(studentName[0])
+// studentName[0]=102
+// let read:readonly[number]=[1]
+// console.log(read)
+// type studentDetails=[id:number,name:string,fees?:number]
+// let name1:studentDetails=[101,"red dragon",100000]
+// let data:unknown="abcd"
+// if(typeof data==="string"){
+//     console.log(data.toUpperCase())
+// }
+// function anything():unknown{
+//     return ["charlie","777"]
+// }
+// console.log(anything())
+// let obj:unknown={name:"ahamathbasha"}
+// if(typeof obj === 'object' && obj!=null){
+//     console.log((obj as {name:string}).name)
+// }
+// let abcd:any=[1,2,3,{name:"basha"},false,true,null,undefined]
+// function impossible():never{
+//     throw new Error("dont stop me")
+// }
+// interface point{
+//     x:number,
+//     y:number
+// }
+// let p1:point={x:1,y:2}
+// let p2:{x:number,y:number}={x:3,y:4}
+// type Person={
+//     name:string,
+// }
+// type Employee={
+//     name:string,
+//     id:number
+// }
+// let person:Person={name:'alice'}
+// let employee:Employee={name:'bob',id:123}
+// person=employee
+// employee=person
+// let data:any="abcd"
+// let val2=(data as string).length
+// let val3=(<string> data).length
+// let num:number=10
+// console.log((num as any).toUpperCase)
+// let val={name:"basha"} as const
+// console.log(val.name)
+// type User={
+//     name:string,
+//     fees:number
+// }
+// const student1={
+//     name:"ahamathbasha",
+//     fees:1000,
+// }satisfies User
+// type stringOrNumber=string|number
+// let a:stringOrNumber=1
+// function add(input1:stringOrNumber,input2:stringOrNumber):void{
+//         if(typeof input1 && typeof input2 === "string"){
+//             console.log(input1+input2)
+//         }
+// }
+// type name={
+//     userName:string
+// }
+// type id={
+//     idNo:number
+// }
+// type details=name & id
+// const studentDetails:details={userName:"basha",idNo:100}
+// interface student{
+//     name:string
+// }
+// interface studentId extends student{
+//     id:number
+// }
+// let emp:studentId={name:"basha",id:123}
+// type greet=(input:string)=>string
+// let greeting:greet=(message)=>{
+// return `${message}`
+// }
+// console.log(greeting("goodMorning"))
+// type User={
+//     id:number,
+//     name:string
+// }
 // let person:keyof User="id"
 // function getValues<t,k extends keyof t>(obj:t,key:k):t[k]{
 //     return obj[key]

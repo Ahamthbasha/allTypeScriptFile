@@ -172,7 +172,6 @@
 
 // abstract class shape{
 //     abstract getArea():number
-
 //     printArea():void{
 //         console.log(`${this.getArea()}`)
 //     }
@@ -405,10 +404,10 @@
 
 // console.log(greeting("goodMorning"))
 
-type User={
-    id:number,
-    name:string
-}
+// type User={
+//     id:number,
+//     name:string
+// }
 
 // let person:keyof User="id"
 
