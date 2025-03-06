@@ -1060,3 +1060,4 @@ type Book={
 // }
 
 // console.log(mul([1,2,3,4,5]))
+
